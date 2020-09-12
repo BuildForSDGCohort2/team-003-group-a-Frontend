@@ -7,6 +7,13 @@ import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import PhoneIcon from "@material-ui/icons/Phone";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import { IconButton, Typography } from "@material-ui/core";
+import Home from "./Pages/Home";
+import AboutUs from "./Pages/AboutUs";
+import Teacher from "./Pages/Teacher";
+import Student from "./Pages/Student";
+import Blog from "./Pages/Blog";
+import Parent from "./Pages/Parent";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -45,7 +52,49 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="header__main"></div>
+      <div className="header__main">
+        <div className="header__logo">
+          <Link className="header__link" to="/">
+            <p className="header__edu">
+              Edu<span className="header__conet">conet</span>
+            </p>
+          </Link>
+        </div>
+        <div className="header__pages">
+          <div className="header__options ">
+            <Link className="header__link" to="/">
+              <Home />
+            </Link>
+          </div>
+          <div className="header__options">
+            <Link className="header__link" to="/aboutus">
+              <AboutUs />
+            </Link>
+          </div>
+
+          <div className="header__options">
+            <Link className="header__link" to="/teacher">
+              <Teacher />
+            </Link>
+          </div>
+
+          <div className="header__options">
+            <Link className="header__link" to="/parent">
+              <Parent />
+            </Link>
+          </div>
+          <div className="header__options">
+            <Link className="header__link" to="/student">
+              <Student />
+            </Link>
+          </div>
+          <div className="header__options">
+            <Link className="header__link" to="/blog">
+              <Blog />
+            </Link>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

@@ -1,19 +1,20 @@
 .header {
   display: flex;
   width: 100vw;
-  box-shadow: 0px 1px 3px 5px rgba(0, 0, 0, 0.75);
+  flex-direction: column;
+  box-shadow: 0px 0.75px 0.75px 0.75px rgba(0, 177, 106, 1);
+  position: sticky;
 }
 
 .header__nav {
   align-items: center;
   display: flex;
   width: 100vw;
-  padding: 5px 30px;
+  padding: 15px -100px;
   justify-content: space-between;
   background-color: #00b16a;
   color: #fff;
   z-index: 100;
-  position: sticky;
 }
 
 .header__navContact {
@@ -48,4 +49,47 @@
 }
 .header__twitter:hover .MuiSvgIcon-root {
   color: #55acee;
+}
+
+.header__main {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 10px;
+}
+
+.header__pages {
+  display: flex;
+  align-items: center;
+  padding-right: 100px;
+}
+.header__logo {
+  padding-left: 100px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: xx-large;
+}
+.header__conet {
+  color: #ff6582;
+}
+.header__edu {
+  color: #0095e8;
+}
+.header__options {
+  font-weight: 400;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #000;
+}
+
+.header__link:hover {
+  color: #0095e8;
+  border-bottom: 2px solid #0095e8;
 }
