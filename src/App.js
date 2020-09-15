@@ -13,7 +13,6 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <Header />
         <Switch>
           <Route path="/aboutus">
             <AboutUs />
@@ -31,6 +30,7 @@ function App() {
             <Blog />
           </Route>
           <Route path="/">
+            <Header />
             <Home />
           </Route>
         </Switch>

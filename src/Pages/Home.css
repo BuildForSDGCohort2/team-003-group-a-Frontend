@@ -1,0 +1,80 @@
+/* .home__image {
+  position: absolute;
+  background-image: url("./Images/graduation.jpg");
+  width: 100%;
+  height: 80vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+} */
+
+/* .home__hero {
+  background-image: url("./Images/graduation.jpg");
+  position: center;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.home__text {
+} */
+
+.hero__image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./Images/graduation.jpg");
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  object-fit: contain;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.hero__text button {
+  border: none;
+  outline: 0;
+  display: flex;
+  margin-top: 40px;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #00b16a;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.hero__text h1 {
+  color: #fff;
+}
+
+.hero__text span {
+  color: #dddddd;
+}
+.hero__text p {
+  color: #dddddd;
+  margin-top: 15px;
+}
+
+.hero__text button:hover {
+  background-color: #555;
+  color: #fff;
+}

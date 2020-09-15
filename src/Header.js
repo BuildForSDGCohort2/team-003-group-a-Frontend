@@ -54,7 +54,7 @@ const Header = () => {
       </div>
       <div className="header__main">
         <div className="header__logo">
-          <Link className="header__link" to="/">
+          <Link className="header__link" to="/home">
             <p className="header__edu">
               Edu<span className="header__conet">conet</span>
             </p>
