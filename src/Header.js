@@ -7,12 +7,6 @@ import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import PhoneIcon from "@material-ui/icons/Phone";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import { IconButton, Typography } from "@material-ui/core";
-// import Home from "./Pages/Home";
-// import AboutUs from "./Pages/AboutUs";
-// import Teacher from "./Pages/Teacher";
-// import Student from "./Pages/Student";
-// import Blog from "./Pages/Blog";
-// import Parent from "./Pages/Parent";
 import { Link } from "react-router-dom";
 
 const Header = () => {
