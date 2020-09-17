@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Button from "@material-ui/core/Button";
-import Solution from "../Solution";
+import Solution from "../components/Solution";
 
 const Home = () => {
   function handleClick() {
@@ -21,20 +21,9 @@ const Home = () => {
             <Button onClick={handleClick}>Take A Tour</Button>
           </div>
         </div>
-        <Solution />
       </div>
+      <Solution />
     </div>
-    // <div className="home">
-    //   <div className="home__image">
-    //     <div className="home__text">
-    //       <h1>
-    //         Education is the <span>key to Success</span>
-    //       </h1>
-    //       <p>We make sure you show the right path</p>
-    //       <Button onClick={handleClick}>Take A Tour</Button>
-    //     </div>
-    //   </div>
-    // </div>
   );
 };
 

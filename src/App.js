@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Header from "./Header";
+import Header from "./components/Header";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AboutUs from "./Pages/AboutUs";
 import Teacher from "./Pages/Teacher";
