@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import "./Service.css";
-import {
-  FaGraduationCap,
-  FaChalkboardTeacher,
-  FaLaptopCode,
-} from "react-icons/fa";
+import { FaGraduationCap, FaChalkboardTeacher } from "react-icons/fa";
+import { SiGoogleclassroom } from "react-icons/si";
 
 const Service = () => {
-  const [services, setService] = useState([
+  const [services] = useState([
     {
       icon: <FaChalkboardTeacher />,
       title: "Professional Teachers",
@@ -15,7 +12,7 @@ const Service = () => {
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae voluptates rerum alias exercitationem dignissimos nihil doloribus ullam quo deleniti nemo odio consequatur eius reprehenderit libero accusamus ad et, omnis animi!",
     },
     {
-      icon: <FaLaptopCode />,
+      icon: <SiGoogleclassroom />,
       title: "Stay Connected",
       info:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae voluptates rerum alias exercitationem dignissimos nihil doloribus ullam quo deleniti nemo odio consequatur eius reprehenderit libero accusamus ad et, omnis animi!",
