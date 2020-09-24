@@ -27,12 +27,12 @@ const Service = () => {
   return (
     <section className="services">
       <div className="services__center">
-        {services.map((service, index) => {
+        {services.map(({ icon, title, info, index }) => {
           return (
             <article key={index} className="services__content">
-              <span>{service.icon}</span>
-              <h6>{service.title}</h6>
-              <p>{service.info}</p>
+              <span>{icon}</span>
+              <h6>{title}</h6>
+              <p>{info}</p>
             </article>
           );
         })}

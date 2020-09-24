@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Button from "@material-ui/core/Button";
 import Solution from "../components/Solution";
+import Testimonial from "../components/Testimonial";
 
 const Home = () => {
   function handleClick() {
@@ -23,6 +24,7 @@ const Home = () => {
         </div>
       </div>
       <Solution />
+      <Testimonial />
     </div>
   );
 };
