@@ -14,14 +14,14 @@ const Testimonial = () => {
     {
       avatar: "https://i.ibb.co/8srDCy9/michael-dam.jpg",
       name: "Amanda Kors",
-      title: "Web Designer",
+      title: "SEO Expert",
       message:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae voluptates rerum alias exercitationem dignissimos nihil doloribus ullam quo deleniti nemo odio consequatur eius reprehenderit libero accusamus ad et, omnis animi!",
     },
     {
       avatar: "https://i.ibb.co/Y08MKWk/nicolas-horn.jpg",
       name: "Benjamin Brighton",
-      title: "Web Designer",
+      title: "CEO GreenView",
       message:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae voluptates rerum alias exercitationem dignissimos nihil doloribus ullam quo deleniti nemo odio consequatur eius reprehenderit libero accusamus ad et, omnis animi!",
     },

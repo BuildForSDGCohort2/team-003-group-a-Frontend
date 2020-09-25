@@ -3,6 +3,7 @@ import "./Home.css";
 import Button from "@material-ui/core/Button";
 import Solution from "../components/Solution";
 import Testimonial from "../components/Testimonial";
+import Footer from "../components/Footer";
 
 const Home = () => {
   function handleClick() {
@@ -25,6 +26,7 @@ const Home = () => {
       </div>
       <Solution />
       <Testimonial />
+      <Footer />
     </div>
   );
 };

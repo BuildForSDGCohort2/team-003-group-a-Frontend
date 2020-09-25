@@ -77,15 +77,10 @@ blockquote:after {
   align-items: center;
   justify-content: left;
   margin-left: 50px;
-
-  /* margin-right: 10px; */
 }
 .review__image {
-  /* display: inline-block; */
   color: #00b16a;
   font-size: 5.5rem;
-  /* padding-right: 40px; */
-  /* margin-bottom: 0.5rem; */
 }
 
 .review__details {
